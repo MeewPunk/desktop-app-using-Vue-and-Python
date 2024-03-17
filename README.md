@@ -8,33 +8,41 @@ Ensure you have Python 3.11.3 installed.
 
 Windows
 Activate the virtual environment:
+```bash
 env\Scripts\activate
-
+```
 macOS/Linux
 Activate the virtual environment:
+```bash
 source env/bin/activate
-
+```
 Install the required Python packages:
+```bash
 pip install -r requirements.txt
-
+```
 Run the backend server:
+```bash
 python main.py
-
+```
 Frontend Setup
 Navigate to the frontend directory:
+```bash
 cd frontend
-
+```
 Install the required npm packages:
+```bash
 npm install
-
+```
 Development
 To run the frontend in development mode:
+```bash
 npm run dev
-
+```
 Production
 To build the frontend for production:
+```bash
 npm run build
-
+```
 After building, make the following changes:
 
 Rename indexxxxxxxxxxxxxx.css to index.css and move it to backend/static/assets/.
